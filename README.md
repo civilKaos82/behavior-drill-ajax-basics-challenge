@@ -8,7 +8,7 @@
 
 ## Summary
 
-You are given migrations, models, seed data, and controllers.  We're going to practice implementing the ajax portion only with the code that is already in place.
+You are given migrations, models, seed data, and controllers.  We're going to practice implementing the ajax portion only with the code that is already in place.  All the directions are in the app and javascript.  Hints will be given below in the Releases section.
 
 ## Releases
 
@@ -21,14 +21,20 @@ You are given migrations, models, seed data, and controllers.  We're going to pr
 
 ### Release 0:  Simple AJAX GET and POST that returns text
 
+Try using the generic `$.ajax` method.
+
 ### Release 1:  Simple AJAX GET and POST that returns a partial
+
+What jquery method can you use to write html to an element?
 
 ### Release 2:  Simple AJAX GET and POST that returns json
 
-### Release 3:  Implementing RESTful Routes with partials
+Time to lookup what exactly [JSON](http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/) is.
 
-### Release 4:  Implementing RESTful Routes with JSON
+### Release 3:  Implementing AJAX CRUD/RESTful Routes with partials
 
+[This](http://api.jquery.com/serialize/) might be useful for submitting form data.
+You might need to find out what fired an event.  Look at [this](http://api.jquery.com/event.target/).
 
 ## Things to think about
 

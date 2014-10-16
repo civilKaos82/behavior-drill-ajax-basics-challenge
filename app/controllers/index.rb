@@ -1,4 +1,4 @@
-# Release 1
+# Release 0
 get '/' do
   erb :"basics/release_0"
 end
@@ -11,19 +11,19 @@ post '/basic_request' do
   "I'm the body of the response from a POST request. #{params[:name]} is #{params[:age]} years old and #{params[:description]}."
 end
 
-# Release 2
+# Release 1
 get '/release_1' do
   erb :"basics/release_1"
 end
 
 get '/display_info' do
   @message = "I'm the body of the response from a GET request using a partial."
-  erb :"basics/release_1_a", layout: false
+  erb :"basics/_release_1_a", layout: false
 end
 
 post '/display_info' do
   @message = "I'm the body of the response from a POST request using a partial. #{params[:name]} is #{params[:age]} years old and #{params[:description]}."
-  erb :"basics/release_1_b", layout: false
+  erb :"basics/_release_1_b", layout: false
 end
 
 # Release 2

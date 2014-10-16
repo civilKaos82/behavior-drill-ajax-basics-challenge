@@ -8,6 +8,15 @@ h3 {
   margin-left: 5px;
 }
 
+h4 {
+  margin-left: 5px;
+}
+
+h3.partial {
+  margin-top: 25px;
+  color: #383;
+}
+
 hr {
   margin: 25px 0;
 }
@@ -44,5 +53,58 @@ a {
   background: #F36;
   margin-right: 10px;
 }
+
+#muppetResults {
+  margin-top: 25px;
+}
+
+#muppetResults ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#muppetResults form,  #muppetResults table{
+  margin-left: 5px;
+}
+
+#muppetResults input {
+  margin: 10px;
+}
+
+#muppetResults input[name='muppetSave'] {
+  margin: 15px 0 0 0;
+}
+
+.deleteMuppet input[type='submit'] {
+  background: #F36;
+  padding: 10px 15px;
+  margin: 0;
+  color: #FFF;
+  text-decoration: none;
+  border:0;
+}
+
+table {
+  border:3px solid black;
+  width: 100%;
+}
+
+tr:nth-child(odd) {
+  background-color: #ccc;
+}
+
+tr:first-child {
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+td {
+  padding-left: 5px;
+  border: 1px solid black;
+  height: 50px;
+}
+
 
 

@@ -2,28 +2,21 @@
 
 $(document).ready(function(){
 
-  //***** BEGIN DO NOT EDIT ***************************************
-  $("#reset").on("click", function(event) {
-    $("#getResponse").text("");
-    $("#postResponse").text("");
-  });
-  //***** END DO NOT EDIT *****************************************
-
-  //***** PART 2 A ************************************************
+  //***** RELEASE 1 A ************************************************
   // - Bind a click event to the link with id="getRequest"
   // - invoke an ajax get to the url: "/display_info"
   // - on success, take the partial returned on the response
-  //   and place the markup inside the div with id="postResponse"
+  //   and place the markup inside the div with id="getResponse"
   //***************************************************************
 
-  // Your code for part 2 A here
+  // Your code for RELEASE 1 A here
 
-  //***** END PART 2 A ********************************************
-
-
+  //***** END RELEASE 1 A ********************************************
 
 
-  //***** PART 2 B ************************************************
+
+
+  //***** RELEASE 1 B ************************************************
   // - Bind a click event to the link with id="postRequest"
   // - invoke an ajax post to the url: "/display_info"
   // - send this data on the post:
@@ -32,9 +25,9 @@ $(document).ready(function(){
   //   and place the markup inside the div with id="postResponse"
   //***************************************************************
 
-  // Your code for part 2 B here
+  // Your code for RELEASE 1 B here
 
-  //***** END PART 2 B ********************************************
+  //***** END RELEASE 1 B ********************************************
 
 
 });
