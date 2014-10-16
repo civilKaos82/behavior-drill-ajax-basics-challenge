@@ -12,6 +12,10 @@ You are given migrations, models, seed data, and controllers.  We're going to pr
 
 ## Releases
 
+### Pre-reading
+
+Before you get started, read this [intro to ajax](http://learn.jquery.com/ajax/).
+
 ### Quickstart
 
 1.  `bundle install`
@@ -34,6 +38,7 @@ Time to lookup what exactly [JSON](http://www.copterlabs.com/blog/json-what-it-i
 ### Release 3:  Implementing AJAX CRUD/RESTful Routes with partials
 
 [This](http://api.jquery.com/serialize/) might be useful for submitting form data.
+
 You might need to find out what fired an event.  Look at [this](http://api.jquery.com/event.target/).
 
 ## Things to think about
