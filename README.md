@@ -23,10 +23,6 @@ Before you get started, read this [intro to ajax](http://learn.jquery.com/ajax/)
 3.  `shotgun config.ru`
 4.  Navigate to `localhost:9393` and follow the instructions.
 
-### Release 0:  Simple AJAX GET and POST that returns text
-
-Try using the generic `$.ajax` method.
-
 ### Release 1:  Simple AJAX GET and POST that returns a partial
 
 What jquery method can you use to write html to an element?
