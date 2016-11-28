@@ -1,6 +1,6 @@
 # Release 0
 get '/' do
-  erb :"basics/release_0"
+  erb :"basics/release_1"
 end
 
 get '/basic_request' do
