@@ -8,7 +8,7 @@
 
 ## Summary
 
-You are given migrations, models, seed data, and controllers.  We're going to practice implementing the ajax portion only with the code that is already in place.  All the directions are in the app and javascript.  Hints will be given below in the Releases section.
+You are given migrations, models, seed data, and controllers.  We're going to practice implementing the ajax portion only with the code that is already in place.  **All the directions are in the app's javascript files**.  Hints will be given below in the Releases section.
 
 ## Releases
 
@@ -20,20 +20,17 @@ Before you get started, read this [intro to ajax](http://learn.jquery.com/ajax/)
 
 1.  `bundle install`
 2.  `rake db:all`
-3.  `shotgun config.ru`
+3.  `bundle exec shotgun`
 4.  Navigate to `localhost:9393` and follow the instructions.
 
-### Release 1:  Simple AJAX GET and POST that returns a partial
 
-What jquery method can you use to write html to an element?
-
-### Release 2:  Simple AJAX GET and POST that returns json
-
-Time to lookup what exactly [JSON](http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/) is.
-
-### Release 3:  Implementing AJAX CRUD/RESTful Routes with partials
+### Release 0:  Implementing AJAX CRUD/RESTful Routes with partials
 
 [This](http://api.jquery.com/serialize/) might be useful for submitting form data.
+
+### Release 1:  Simple AJAX GET and POST that returns json
+
+Time to lookup what exactly [JSON](http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/) is.
 
 You might need to find out what fired an event.  Look at [this](http://api.jquery.com/event.target/).
 

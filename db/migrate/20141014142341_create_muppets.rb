@@ -1,4 +1,4 @@
-class CreateMuppets < ActiveRecord::Migration
+class CreateMuppets < ActiveRecord::Migration[5.0]
   def change
     create_table :muppets do |t|
       t.string :name
