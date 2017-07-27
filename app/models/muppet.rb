@@ -1,3 +1,3 @@
-class Muppet < ActiveRecord::Base
+class Muppet < ApplicationRecord
   # Remember to create a migration!
 end
